@@ -465,8 +465,10 @@
 				E2DDD1B81BE6952F002CE867 /* tvOS Frameworks and Libraries */,
 				1AB674ADFE9D54B511CA2CBB /* Products */,
 			);
+			indentWidth = 2;
 			name = LittleCMS;
 			sourceTree = "<group>";
+			tabWidth = 2;
 		};
 		1AB674ADFE9D54B511CA2CBB /* Products */ = {
 			isa = PBXGroup;
@@ -854,7 +856,7 @@
 		08FB7793FE84155DC02AAC07 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0820;
+				LastUpgradeCheck = 0830;
 				TargetAttributes = {
 					CEE28CD01AE004D800F4023C = {
 						CreatedOnToolsVersion = 6.3;
@@ -1235,7 +1237,6 @@
 					"-Wno-cstring-format-directive",
 					"-Wno-reserved-id-macro",
 					"-Wno-cast-qual",
-					"-Wno-nullable-to-nonnull-conversion",
 					"-Wno-partial-availability",
 				);
 			};
