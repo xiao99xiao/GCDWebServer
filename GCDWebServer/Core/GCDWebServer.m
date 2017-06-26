@@ -77,12 +77,12 @@ GCDWebServerLoggingLevel GCDWebServerLogLevel = kGCDWebServerLoggingLevel_Debug;
 #else
 GCDWebServerLoggingLevel GCDWebServerLogLevel = kGCDWebServerLoggingLevel_Info;
 #endif
-#elif defined(__GCDWEBSERVER_LOGGING_FACILITY_COCOALUMBERJACK__)
-#if DEBUG
-DDLogLevel GCDWebServerLogLevel = DDLogLevelDebug;
-#else
-DDLogLevel GCDWebServerLogLevel = DDLogLevelInfo;
-#endif
+//#elif defined(__GCDWEBSERVER_LOGGING_FACILITY_COCOALUMBERJACK__)
+//#if DEBUG
+//DDLogLevel GCDWebServerLogLevel = DDLogLevelDebug;
+//#else
+//DDLogLevel GCDWebServerLogLevel = DDLogLevelInfo;
+//#endif
 #endif
 
 #if !TARGET_OS_IPHONE

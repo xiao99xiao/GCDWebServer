@@ -88,21 +88,21 @@ NS_ASSUME_NONNULL_BEGIN
  *  it as a logging facility.
  */
 
-#elif defined(__has_include) && __has_include("CocoaLumberjack/CocoaLumberjack.h")
-
-#import <CocoaLumberjack/CocoaLumberjack.h>
-
-#define __GCDWEBSERVER_LOGGING_FACILITY_COCOALUMBERJACK__
-
-#undef LOG_LEVEL_DEF
-#define LOG_LEVEL_DEF GCDWebServerLogLevel
-extern DDLogLevel GCDWebServerLogLevel;
-
-#define GWS_LOG_DEBUG(...) DDLogDebug(__VA_ARGS__)
-#define GWS_LOG_VERBOSE(...) DDLogVerbose(__VA_ARGS__)
-#define GWS_LOG_INFO(...) DDLogInfo(__VA_ARGS__)
-#define GWS_LOG_WARNING(...) DDLogWarn(__VA_ARGS__)
-#define GWS_LOG_ERROR(...) DDLogError(__VA_ARGS__)
+//#elif defined(__has_include) && __has_include("CocoaLumberjack/CocoaLumberjack.h")
+//
+//#import <CocoaLumberjack/CocoaLumberjack.h>
+//
+//#define __GCDWEBSERVER_LOGGING_FACILITY_COCOALUMBERJACK__
+//
+//#undef LOG_LEVEL_DEF
+//#define LOG_LEVEL_DEF GCDWebServerLogLevel
+//extern DDLogLevel GCDWebServerLogLevel;
+//
+//#define GWS_LOG_DEBUG(...) DDLogDebug(__VA_ARGS__)
+//#define GWS_LOG_VERBOSE(...) DDLogVerbose(__VA_ARGS__)
+//#define GWS_LOG_INFO(...) DDLogInfo(__VA_ARGS__)
+//#define GWS_LOG_WARNING(...) DDLogWarn(__VA_ARGS__)
+//#define GWS_LOG_ERROR(...) DDLogError(__VA_ARGS__)
 
 /**
  *  If all of the above fail, then use GCDWebServer built-in
